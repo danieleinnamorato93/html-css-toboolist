@@ -8,10 +8,17 @@ body {
 }
 
 .brand {
-    height: 300px;
+    height: 150px;
     width: 450px;
-    padding: 10px 10px;
+    padding-top: 10px;
+    padding-left: 15px;
     
+
+}
+
+.logo,h1 {
+    line-height: 60px;
+    vertical-align: middle;
 
 }
 .logo {
@@ -20,8 +27,7 @@ body {
     background-image: url("Logo.png");
     background-repeat: no-repeat;
     display: inline-block;
-    line-height: 60px;
-    vertical-align: middle;
+    
     
 }
 
@@ -29,6 +35,36 @@ h1 {
     font-size: 40px;
     font-weight: 900;
     display: inline;
-    line-height: 60px;
-    vertical-align: middle;
 }
+
+.container {
+    max-width: 1080px;
+    margin: 2px auto;
+    padding-left: 95px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.buttons {
+    width: 70px;
+    height: 27px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: inline;   
+}
+
+#task{
+    background-color: rgb(16, 181, 247);
+    color: white;
+    border:none;
+}
+
+#sections{
+    background-color: white;
+    color:lightslategray ;
+    width: 90px;
+    
+    
+}
+
+
